@@ -1,0 +1,96 @@
+* {
+    margin 0 padding: 0 box-sizing: border-box;
+    ;
+}
+
+nav ol {
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+ol {
+    gap: 20px
+}
+
+nav {
+    display: none;
+}
+
+/* header */
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+@media(min-width:768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        display: block;
+    }
+
+
+
+/* main */
+
+.main-index{
+    background-color: black;
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(3, 3fr);
+
+}
+
+.main-index > .titulos{
+    grid-column: span 2;
+    border: solid 2px white;
+padding: 10px;
+border-radius: 10px;
+    
+}    
+
+.main-index > imagenes-soda{
+    grid-column: 3;
+    grid-row: 1/2;
+    }
+
+    .imagen-gracias{
+        width: 450px;
+        height: 320px;
+        margin: 20px;
+        padding: 5px;
+}
+.soda-discos{
+    width: 450px;
+        height: 320px;
+        margin: 20px;
+        padding: 5px;
+        
+}
+    
+.musicos{
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 10px;
+}
+    
+
+
