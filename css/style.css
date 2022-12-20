@@ -1,37 +1,90 @@
-* {
+{
     margin 0 padding: 0 box-sizing: border-box;
     ;
 }
 
+header{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    text-decoration: none;
+   max-width: 1400px;
+}
+
+.logoPortada{
+    padding: 0 40px;
+    width: 600px;
+}
+.navMenu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    gap: 10px;
+}
+.navMenuItem{
+    font-size: 20px;
+    line-height: 80px;
+}
+.botonNav{
+    color: white;
+    background: none;
+    border: none;
+    padding: 0 20px;
+    width: 600px;
+}
+@media (min-widht: 768px) {
+    body{
+        padding: 90px 20px 0;
+    }
+    header{
+        background-color: black;
+        height: 80px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .navMenu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        list-style: none;
+        gap: 10px;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+    }
+    .navMenuItem{
+        font-size: 20px;
+        line-height: 80px;
+    }
+    .botonNav{
+        color: white;
+        background: none;
+        border: none;
+        padding: 0 20px;
+        width: 600px;
+    }
+}
+    /* header
 nav ol {
     list-style: none;
     display: flex;
     justify-content: center
 }
-
 ol {
     gap: 20px
 }
-
 nav {
     display: none;
 }
-
-@media screen and (max-width:768px)  
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }    
-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-/* header */
+  
 header {
     color: white;
     background-color: black;
@@ -40,62 +93,36 @@ header {
     width: 100%;
 }
 
-h1 {
-    font-size: 70px;
-}
-
-
-
-    nav {
-        display: block;
+h1 {font-size: 70px;}
+nav {
+        display: flex;
     }
-/* main */
+    
+ /* main  */
 .main-index{
     background-color: black;
     color: yellow;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
+    font-family: 'Roboto', sans-serif;}
+    
+.imagenGracias{
+    width: 300x;
+    height: 230px;
     margin: 5px;
-    padding: 10px;
-    display: grid;
-    gap: 1.6em;
-    grid-template-columns: repeat(3, 3fr);
+    padding: 5px;
 }
-.main-index > .titulos{
-    grid-column: span 2;
-    border: solid 2px white;
-padding: 10px;
-border-radius: 10px;
-}    
-.main-index > imagenes-soda{
-    grid-column: 3;
-    grid-row: 1/2;
-    }
-    .imagen-gracias{
-        width: 450px;
-        height: 320px;
-        margin: 20px;
-        padding: 5px;
-}
-.soda-discos{
-    width: 450px;
-        height: 320px;
-        margin: 20px;
-        padding: 5px;
-        
-}
-.musicos{
-    border: solid 2px white;
-    border-radius: 10px;
-    padding: 10px;
+.imagenDiscos{
+    width: 300x;
+    height: 300px;
+    margin: 5px;
+    padding: 5px;
 }
 iframe {
+    background-color: black;
     padding-top: 10px;
     width: 100%;
-    margin: auto;
-    display: block;
-}
-/* footer */
+    margin: auto;}
+
+/* footer    */
 footer {
     color: white;
     background-color: black;
