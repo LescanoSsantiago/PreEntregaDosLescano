@@ -17,6 +17,20 @@ nav {
     display: none;
 }
 
+@media screen and (max-width:768px)  
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }    
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 /* header */
 header {
     color: white;
@@ -30,22 +44,12 @@ h1 {
     font-size: 70px;
 }
 
-@media(min-width:768px) {
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
+
 
     nav {
         display: block;
     }
-
-
-
 /* main */
-
 .main-index{
     background-color: black;
     color: yellow;
@@ -56,22 +60,17 @@ h1 {
     display: grid;
     gap: 1.6em;
     grid-template-columns: repeat(3, 3fr);
-
 }
-
 .main-index > .titulos{
     grid-column: span 2;
     border: solid 2px white;
 padding: 10px;
 border-radius: 10px;
-    
 }    
-
 .main-index > imagenes-soda{
     grid-column: 3;
     grid-row: 1/2;
     }
-
     .imagen-gracias{
         width: 450px;
         height: 320px;
@@ -85,12 +84,26 @@ border-radius: 10px;
         padding: 5px;
         
 }
-    
 .musicos{
     border: solid 2px white;
     border-radius: 10px;
     padding: 10px;
 }
-    
+iframe {
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+/* footer */
+footer {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer-izq {
+    list-style: none;
 
