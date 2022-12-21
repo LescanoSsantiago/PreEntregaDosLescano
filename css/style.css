@@ -2,127 +2,49 @@
     margin 0 padding: 0 box-sizing: border-box;
     ;
 }
-
-header{
-    background-color: black;
+.navbar-nav{
+    gap: 20px;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    text-decoration: none;
-   max-width: 1400px;
-}
-
-.logoPortada{
-    padding: 0 40px;
-    width: 600px;
-}
-.navMenu{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-    gap: 10px;
-}
-.navMenuItem{
-    font-size: 20px;
-    line-height: 80px;
-}
-.botonNav{
-    color: white;
-    background: none;
-    border: none;
-    padding: 0 20px;
-    width: 600px;
-}
-@media (min-widht: 768px) {
-    body{
-        padding: 90px 20px 0;
-    }
-    header{
-        background-color: black;
-        height: 80px;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
-
-    .navMenu{
-        flex-direction: column;
-        align-items: center;
-        margin-right: 20px;
-        list-style: none;
-        gap: 10px;
-        position: fixed;
-        left: 0;
-        top: 60px;
-        width: 100%;
-        padding: 20px 0;
-    }
-    .navMenuItem{
-        font-size: 20px;
-        line-height: 80px;
-    }
-    .botonNav{
-        color: white;
-        background: none;
-        border: none;
-        padding: 0 20px;
-        width: 600px;
-    }
-}
-    /* header
-nav ol {
-    list-style: none;
-    display: flex;
-    justify-content: center
-}
-ol {
-    gap: 20px
-}
-nav {
-    display: none;
-}
-  
-header {
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-}
-
-h1 {font-size: 70px;}
-nav {
-        display: flex;
-    }
-    
- /* main  */
+ /* INDEX    */
 .main-index{
     background-color: black;
     color: yellow;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+padding: 20px;}
     
-.imagenGracias{
-    width: 300x;
-    height: 230px;
+.imgGracias{
+    width: 100%;
     margin: 5px;
     padding: 5px;
 }
-.imagenDiscos{
-    width: 300x;
-    height: 300px;
+.imgDiscos{
+    width: 100%;
     margin: 5px;
     padding: 5px;
 }
 iframe {
-    background-color: black;
-    padding-top: 10px;
+    padding: 10px;
     width: 100%;
-    margin: auto;}
+    margin: auto;
+    display: block;
+}
+/* CONTACTO */
+.titForm{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contacto{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+}
 
-/* footer    */
+/* footer    
 footer {
     color: white;
     background-color: black;

@@ -10,21 +10,27 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
 </head>
-<header>
-    <img src="../img/sodastereologoalrevez.JPG" class="logo-portada">
-
-    <nav>
-        <ol>
-            <li><a href="../pages/index.html">Inicio</a></li>
-            <li><a href="../pages/biografia.html">Biografia</a></li>
-            <li>Galeria</li>
-            <li><a href="../pages/Discografia.html">Discografia</a></li>
-            <li><a href="../pages/contacto.html">Contacto</a></li>
-        </ol>
-    </nav>
-</header>
 
 <body>
+    <header class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"> <img src="../img/sodastereologoalrevez.JPG" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="navMenuItem"></li><a href="../pages/index.html">Inicio</a></li>
+                    <li class="navMenuItem"><a href="./biografia.html">Biografia</a></li>
+                    <li class="navMenuItem"> Galeria</li>
+                    <li class="navMenuItem"><a href="./Discografia.html">Discografia</a></li>
+                    <li class="navMenuItem"><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
     <h2 class="titulogaleria">GALERIA DE FOTOS </h2>
     <div class="galeria-fotos">
         <img src="../img/fotosodauno.jpg" alt="" class="fotos_soda">
