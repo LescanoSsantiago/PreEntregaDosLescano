@@ -35,8 +35,13 @@ iframe {
     border-radius: 90px;
     padding: 20px;
 }
-
-
+/* DISCOGRAFIA */
+.tituloDiscografia{
+    background-color: yellow ;
+    border: solid ;
+    border-radius: 90px;
+    padding: 20px;
+}
 /* CONTACTO */
 .titForm{
     background-color: black;
